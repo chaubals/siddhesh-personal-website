@@ -1,0 +1,49 @@
+/* ProjectCard.css */
+
+/* General card styles */
+.project-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 15px;
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+/* Card Header */
+.project-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.project-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.project-date {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+/* Project Summary */
+.project-summary p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Tech Stack */
+.tech-stack {
+  font-size: 1rem;
+  color: #444;
+}
+
+.tech-stack strong {
+  color: #000;
+}

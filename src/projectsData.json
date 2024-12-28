@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Memora",
+    "techStack": "React.js, Node.js, Python, Git, AWS Lambda, API Gateway, DynamoDB",
+    "finishDate": "10 December 2024",
+    "projectSummary": "A flashcard-based learning app for tech enthusiasts. Has multiple topics in tech such as Java, DSA, OOP, C#, Python, etc.",
+    "projectGitHubLink": "https://github.com/chaubals/memora-app"
+  },
+  {
+    "title": "CodeQuiz",
+    "techStack": "React.js, Bootstrap CSS, HTML, AWS Lambda, API GATEWAY (REST), DynamoDB, Amplify, Git",
+    "finishDate": "5 December 2024",
+    "projectSummary": "A web design where tech enthusiasts test their technical knowledge by taking quizzes.",
+    "projectGitHubLink": "https://github.com/chaubals/code-quiz"
+  },
+  {
+    "title": "ToDo-App",
+    "techStack": "React.js, Bootstrap CSS, HTML, JavaScript",
+    "finishDate": "5 December 2024",
+    "projectSummary": "Developed a dynamic ToDo app using React.js. Has the functionality to add and delete tasks, and the tasks are indexed and sorted according to the indexes automatically.",
+    "projectGitHubLink": "https://github.com/chaubals/todo-app-react"
+  },
+  {
+    "title": "World Clock",
+    "techStack": "React.js, Bootstrap CSS, HTML, JavaScript",
+    "finishDate": "20 December 2024",
+    "projectSummary": "Built a world clock app that shows the exact date and time in the selected location (city) using React.js.",
+    "projectGitHubLink": "https://github.com/chaubals/world-clock-react"
+  }
+]
