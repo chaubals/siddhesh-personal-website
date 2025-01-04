@@ -4,10 +4,7 @@ import "../CSS/ProjectCard.css";
 function ProjectCard({ item }) {
   return (
     <div className="d-flex flex-column justify-content-center align-items-center">
-      <div
-        className="project-card border rounded-4"
-        style={{ width: "1000px" }}
-      >
+      <div className="project-card border rounded-4">
         {/* Card Header */}
         <div className="project-card-header">
           <h3 className="project-title">{item.title}</h3>

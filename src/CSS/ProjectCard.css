@@ -1,5 +1,3 @@
-/* ProjectCard.css */
-
 /* General card styles */
 .project-card {
   background-color: #fff;
@@ -9,6 +7,8 @@
   margin: 15px;
   transition: transform 0.3s ease-in-out;
   overflow: hidden;
+  width: 100%; /* Make card width 100% of the parent container */
+  max-width: 400px; /* Default max-width for medium screens */
 }
 
 /* Card Header */
@@ -46,4 +46,56 @@
 
 .tech-stack strong {
   color: #000;
+}
+
+/* Responsive Adjustments */
+
+/* Medium screens and larger (tablets, small laptops, etc.) */
+@media (min-width: 768px) {
+  .project-card {
+    max-width: 600px; /* Slightly larger max-width for medium screens */
+  }
+
+  .project-title {
+    font-size: 1.4rem; /* Adjust font size for medium screens */
+  }
+
+  .project-summary p,
+  .tech-stack {
+    font-size: 1rem; /* Keep font size for project summary and tech stack */
+  }
+}
+
+/* Large screens (desktops, large tablets, etc.) */
+@media (min-width: 1024px) {
+  .project-card {
+    max-width: 800px; /* Max width increases on large screens */
+  }
+
+  .project-title {
+    font-size: 1.6rem; /* Increase font size for project title on large screens */
+  }
+
+  .project-summary p,
+  .tech-stack {
+    font-size: 1.1rem; /* Slightly increase font size for large screens */
+  }
+}
+
+/* Small screens (phones in portrait mode, etc.) */
+@media (max-width: 576px) {
+  .project-card {
+    padding: 10px; /* Further reduce padding on very small screens */
+    margin: 5px;  /* Reduce margin on very small screens */
+    max-width: 100%; /* Ensure the card takes full width of the container */
+  }
+
+  .project-title {
+    font-size: 1.1rem; /* Smaller font for title */
+  }
+
+  .project-summary p,
+  .tech-stack {
+    font-size: 0.8rem; /* Smaller text for project summary and tech stack */
+  }
 }
