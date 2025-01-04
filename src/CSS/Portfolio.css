@@ -1,0 +1,46 @@
+/* Portfolio Styles */
+.portfolio-container {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 20px;
+  min-width: 100px;
+}
+
+.project-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px; /* Add some space between the cards */
+  justify-content: center;
+}
+
+.project-cards-container .card {
+  width: 100%;
+  max-width: 300px; /* Limit card width */
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .project-cards-container .card {
+    max-width: 100%; /* Full-width cards on smaller screens */
+  }
+}
+
+.text-center {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 576px) {
+  .portfolio-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .text-center h1 {
+    font-size: 1.5rem; /* Adjust text size for smaller screens */
+  }
+
+  .text-center p {
+    font-size: 1rem; /* Adjust text size for smaller screens */
+  }
+}
