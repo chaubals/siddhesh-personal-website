@@ -63,15 +63,17 @@ function Homepage() {
         <h2 className="fw-bold">Featured Projects</h2>
         <div className="d-flex justify-content-center mt-4">
           <div className="project-preview-card">
-            <h5>Project 1</h5>
-            <p>A brief description of your project...</p>
+            <h5>Memora</h5>
+            <p>
+              A flashcard-based tech learning app developed using React and AWS
+            </p>
             <Link to="/portfolio" className="btn btn-primary">
               See More
             </Link>
           </div>
           <div className="project-preview-card ms-4">
-            <h5>Project 2</h5>
-            <p>A brief description of your project...</p>
+            <h5>CodeQuiz</h5>
+            <p>Test your technical knowhow by taking tech quizzes here</p>
             <Link to="/portfolio" className="btn btn-primary">
               See More
             </Link>
@@ -87,34 +89,6 @@ function Homepage() {
         <Link to="/contact" className="btn btn-lg btn-primary">
           Contact Me
         </Link>
-      </section>
-
-      {/* Social Media Links Section */}
-      <section className="text-center mt-5">
-        <h4>Connect with me:</h4>
-        <div className="social-links">
-          <a
-            href="https://linkedin.com/in/your-profile"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            LinkedIn
-          </a>
-          <a
-            href="https://github.com/your-profile"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GitHub
-          </a>
-          <a
-            href="https://twitter.com/your-profile"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Twitter
-          </a>
-        </div>
       </section>
 
       {/* Footer Section */}

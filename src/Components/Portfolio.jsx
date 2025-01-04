@@ -12,11 +12,12 @@ function Portfolio({ projects }) {
           Here are some of the projects I’ve worked on
         </p>
       </div>
+
       {/* Download resume */}
       <ResumeDownload />
 
       <div className="row justify-content-center">
-        <div className="project-cards-container bg-body-secondary">
+        <div className="project-cards-container col-12 col-md-10 col-lg-8">
           {projects.map((item, index) => (
             <ProjectCard key={index} item={item} />
           ))}
