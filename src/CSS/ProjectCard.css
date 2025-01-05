@@ -9,6 +9,9 @@
   overflow: hidden;
   width: 100%; /* Make card width 100% of the parent container */
   max-width: 400px; /* Default max-width for medium screens */
+  min-width: 800px;
+  min-height: 250px;
+  max-height: 250px;
 }
 
 /* Card Header */
