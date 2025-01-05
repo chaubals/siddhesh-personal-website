@@ -9,9 +9,9 @@
   overflow: hidden;
   width: 100%; /* Make card width 100% of the parent container */
   max-width: 400px; /* Default max-width for medium screens */
-  min-width: 800px;
+  min-width: auto; /* min-width auto is unnecessary, so we can remove it */
+  /* Remove max-height and min-height for better flexibility on small screens */
   min-height: 250px;
-  max-height: 250px;
 }
 
 /* Card Header */
@@ -88,9 +88,11 @@
 /* Small screens (phones in portrait mode, etc.) */
 @media (max-width: 576px) {
   .project-card {
-    padding: 10px; /* Further reduce padding on very small screens */
-    margin: 5px;  /* Reduce margin on very small screens */
+    padding: 10px;  /* Further reduce padding on very small screens */
+    margin: 5px;    /* Reduce margin on very small screens */
     max-width: 100%; /* Ensure the card takes full width of the container */
+    min-height: auto; /* Allow card to expand based on content */
+    max-height: none; /* Remove max-height restriction */
   }
 
   .project-title {
@@ -99,6 +101,6 @@
 
   .project-summary p,
   .tech-stack {
-    font-size: 0.8rem; /* Smaller text for project summary and tech stack */
+    font-size: 0.9rem; /* Slightly smaller text for project summary and tech stack */
   }
 }
