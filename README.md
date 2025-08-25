@@ -1,8 +1,8 @@
-# 🌐 Siddhesh Personal Website
+# 🌐 My Personal Website
 
 > A modern, responsive personal portfolio built with React and Vite
 
-**Live Site:** [Add your deployed URL here]
+****Live Site:** https://siddheshchaubal.netlify.app/**
 
 ## Overview
 
