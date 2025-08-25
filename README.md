@@ -14,7 +14,7 @@ My personal website and portfolio showcasing my projects, skills, and profession
 - 👨‍💻 **About** - Personal background and skills
 - 💼 **Portfolio** - Showcase of projects and work
 - 📝 **Blog** - Technical articles and insights
-- 🛒 **Marketplace** - [Add description of this section]
+- 🛒 **Marketplace** - (under construction)
 - 📞 **Contact** - Ways to get in touch
 - 📄 **Resume Download** - Easy access to latest resume
 - 📱 **Responsive Design** - Optimized for all devices
@@ -140,6 +140,6 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 **Connect with me:**
-- 📧 Email: [your-email@domain.com]
-- 💼 LinkedIn: [your-linkedin-profile]
-- 🐱 GitHub: [your-github-username]
+- 📧 Email: chuabals@umich.edu
+- 💼 LinkedIn: https://www.linkedin.com/in/chaubals/
+- 🐱 GitHub: https://github.com/chaubals
